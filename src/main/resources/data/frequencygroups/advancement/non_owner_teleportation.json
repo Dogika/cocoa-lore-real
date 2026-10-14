@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "frequencygroups:player_pearl"
+    },
+    "title": {
+      "translate": "advancement.frequencygroups.external_pearl.title"
+    },
+    "description": {
+      "translate": "advancement.frequencygroups.external_pearl.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "was_teleported": {
+      "trigger": "frequencygroups:external_pearl"
+    }
+  },
+  "requirements": [
+    [
+      "was_teleported"
+    ]
+  ]
+}

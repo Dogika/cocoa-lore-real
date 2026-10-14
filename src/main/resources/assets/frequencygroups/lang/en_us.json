@@ -1,0 +1,43 @@
+{
+  "item.frequencygroups.frequency_interface": "Frequency Interface",
+
+  "frequencygroups.action.bound": "Bound to group '%s'",
+  "frequencygroups.action.cleared": "Cleared - link is back on Global",
+  "frequencygroups.action.locked": "'%s' is locked by its creator",
+
+  "frequencygroups.menu.title": "Redstone Link Groups",
+  "frequencygroups.menu.name_box": "Search or name a new group",
+  "frequencygroups.menu.create": "Create Group",
+  "frequencygroups.menu.lock_new_on": "Lock: On",
+  "frequencygroups.menu.lock_new_off": "Lock: Off",
+  "frequencygroups.menu.duplicate": "A group named '%s' already exists",
+  "frequencygroups.menu.by": "by %s",
+  "frequencygroups.menu.locked": "Locked",
+  "frequencygroups.menu.unlocked": "Unlocked",
+
+  "gui.frequencygroups.node.group": "Link Group",
+
+  "item.frequencygroups.experience_siphon": "Experience Siphon",
+  "item.frequencygroups.living_experience": "Living Experience",
+  "item.frequencygroups.player_pearl": "Player Pearl",
+  "death.attack.life_extraction": "%1$s extracted too much living experience",
+
+  "item.frequencygroups.direction_link": "Direction Link",
+  "item.frequencygroups.pilot_link": "Pilot Link",
+
+  "item.experienceforging.incomplete_emerald_steel_bar.progress": "Progress: %1$s / %2$s hits",
+  "item.frequencygroups.incomplete_emerald_steel_bar": "Incomplete Emerald Steel Bar",
+  "item.frequencygroups.emerald_steel_bar": "Emerald Steel Bar",
+
+  "advancement.frequencygroups.forged_emerald.title": "Time to Experience Conduction.",
+  "advancement.frequencygroups.forged_emerald.desc": "Forge an Emerald using an Experience Fan and a Mechanical Press.",
+
+  "advancement.frequencygroups.external_pearl.title": "Get Over Here!",
+  "advancement.frequencygroups.external_pearl.desc": "Have something or someone else teleport you via Player Pearl.",
+
+  "enchantment.frequencygroups.bleeding": "Bleeding",
+  "enchantment.frequencygroups.dullness": "Dullness",
+  "enchantment.frequencygroups.spreadshot": "Spreadshot",
+  "enchantment.frequencygroups.firewalker": "Hot Footed",
+  "enchantment.frequencygroups.barrier": "Barrier"
+}

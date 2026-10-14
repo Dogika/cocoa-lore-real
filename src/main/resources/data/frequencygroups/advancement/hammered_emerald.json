@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancement.frequencygroups.forged_emerald.title"
+    },
+    "description": {
+      "translate": "advancement.frequencygroups.forged_emerald.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_forged_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "frequencygroups:emerald_steel_bar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_forged_item"
+    ]
+  ]
+}

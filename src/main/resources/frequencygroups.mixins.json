@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8.6",
+  "package": "com.frequencygroups.mod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "minecraft.VillagersFearEffectMixin",
+    "minecraft.RaidMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "server": []
+}

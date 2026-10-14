@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG ",
+    "  E",
+    "GG "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "E": {
+      "item": "frequencygroups:emerald_steel_bar"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "frequencygroups:experience_siphon"
+  }
+}

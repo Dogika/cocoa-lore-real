@@ -1,0 +1,15 @@
+{
+  "description": {
+    "translate": "enchantment.frequencygroups.barrier",
+    "color": "aqua"
+  },
+  "exclusive_set": "minecraft:thorns",
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": { "base": 1, "per_level_above_first": 1 },
+  "max_cost": { "base": 2, "per_level_above_first": 1 },
+  "anvil_cost": 4,
+  "slots": [ "armor" ],
+  "effects": {}
+}

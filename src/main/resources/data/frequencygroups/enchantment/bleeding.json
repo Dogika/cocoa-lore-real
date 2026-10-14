@@ -1,0 +1,36 @@
+{
+  "description": {
+    "translate": "enchantment.frequencygroups.bleeding",
+    "color": "dark_red"
+  },
+  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "supported_items": "#minecraft:enchantable/sword",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 2,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "yourmodid:bleeding_damage_reduction",
+      "operation": "add_multiplied_total",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": -0.3,
+        "per_level_above_first": -0.075
+      }
+    }
+  ]
+  }
+}
